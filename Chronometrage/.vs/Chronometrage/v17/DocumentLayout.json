@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\BorraniA2\\Desktop\\SpeciaTPI\\Chronometrage\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C473171B-B744-4D4A-9892-9CA538E423BD}|Chronometrage.csproj|c:\\users\\borrania2\\desktop\\speciatpi\\chronometrage\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C473171B-B744-4D4A-9892-9CA538E423BD}|Chronometrage.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C473171B-B744-4D4A-9892-9CA538E423BD}|Chronometrage.csproj|c:\\users\\borrania2\\desktop\\speciatpi\\chronometrage\\pages\\chronomanage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C473171B-B744-4D4A-9892-9CA538E423BD}|Chronometrage.csproj|solutionrelative:pages\\chronomanage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChronoManage.xaml",
+              "DocumentMoniker": "C:\\Users\\BorraniA2\\Desktop\\SpeciaTPI\\Chronometrage\\Pages\\ChronoManage.xaml",
+              "RelativeDocumentMoniker": "Pages\\ChronoManage.xaml",
+              "ToolTip": "C:\\Users\\BorraniA2\\Desktop\\SpeciaTPI\\Chronometrage\\Pages\\ChronoManage.xaml",
+              "RelativeToolTip": "Pages\\ChronoManage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-15T10:12:09.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\BorraniA2\\Desktop\\SpeciaTPI\\Chronometrage\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "C:\\Users\\BorraniA2\\Desktop\\SpeciaTPI\\Chronometrage\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-15T10:04:33.721Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
