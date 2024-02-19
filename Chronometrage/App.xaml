@@ -14,11 +14,10 @@
                 <Setter Property="BackgroundColor" Value="#0E1E2C" />
             </Style>
             <Style TargetType="Label">
-                <Setter Property="BackgroundColor" Value="White"/>
-                <Setter Property="HorizontalTextAlignment" Value="Center"/>
-                <Setter Property="VerticalTextAlignment" Value="Center"/>
-                <Setter Property="Padding" Value="10"/>
-                <Setter Property="LineHeight" Value="1.5"/>
+                <Setter Property="FontFamily" Value="OppenSansRegular"/>
+                <Setter Property="HorizontalOptions" Value="Center" />
+                <Setter Property="VerticalOptions" Value="Center" />
+                <Setter Property="Background" Value="Blue" />
             </Style>
         </ResourceDictionary>
     </Application.Resources>
