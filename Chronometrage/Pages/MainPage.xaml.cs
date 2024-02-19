@@ -1,4 +1,4 @@
-﻿namespace Chronometrage
+﻿namespace Chronometrage.Pages
 {
     public partial class MainPage : ContentPage
     {

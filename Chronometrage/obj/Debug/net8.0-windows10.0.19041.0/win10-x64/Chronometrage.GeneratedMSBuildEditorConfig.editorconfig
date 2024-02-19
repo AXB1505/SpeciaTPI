@@ -24,17 +24,17 @@ build_metadata.AdditionalFiles.ManifestResourceName = Chronometrage.AppShell.xam
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/BorraniA2/Desktop/SpeciaTPI/Chronometrage/MainPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Chronometrage.MainPage.xaml
-build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
-build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
-
 [C:/Users/BorraniA2/Desktop/SpeciaTPI/Chronometrage/Pages/ChronoManage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Chronometrage.Pages.ChronoManage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\ChronoManage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\ChronoManage.xaml
+
+[C:/Users/BorraniA2/Desktop/SpeciaTPI/Chronometrage/Pages/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Chronometrage.Pages.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\MainPage.xaml
 
 [C:/Users/BorraniA2/Desktop/SpeciaTPI/Chronometrage/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
