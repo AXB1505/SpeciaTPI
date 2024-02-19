@@ -2,45 +2,12 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Chronometrage.Pages.ChronoManage"
-             BackgroundColor="#0E1E2C">
-    <VerticalStackLayout>
-        <Grid RowDefinitions="*,*,*" ColumnDefinitions="*,*,*,*">
-            <ContentView Grid.Row="0" Grid.Column="0" BackgroundColor="Red">
-                <Label Text="1" />
-            </ContentView>
-            <ContentView Grid.Row="0" Grid.Column="1" BackgroundColor="Green">
-                <Label Text="2" />
-            </ContentView>
-            <ContentView Grid.Row="0" Grid.Column="2" BackgroundColor="Blue">
-                <Label Text="3" />
-            </ContentView>
-            <ContentView Grid.Row="0" Grid.Column="3" BackgroundColor="Yellow">
-                <Label Text="4" />
-            </ContentView>
-            <ContentView Grid.Row="1" Grid.Column="0" BackgroundColor="Red">
-                <Label Text="5" />
-            </ContentView>
-            <ContentView Grid.Row="1" Grid.Column="1" BackgroundColor="Green">
-                <Label Text="6" />
-            </ContentView>
-            <ContentView Grid.Row="1" Grid.Column="2" BackgroundColor="Blue">
-                <Label Text="7" />
-            </ContentView>
-            <ContentView Grid.Row="1" Grid.Column="3" BackgroundColor="Yellow">
-                <Label Text="8" />
-            </ContentView>
-            <ContentView Grid.Row="2" Grid.Column="0" BackgroundColor="Red">
-                <Label Text="9" />
-            </ContentView>
-            <ContentView Grid.Row="2" Grid.Column="1" BackgroundColor="Green">
-                <Label Text="10" />
-            </ContentView>
-            <ContentView Grid.Row="2" Grid.Column="2" BackgroundColor="Blue">
-                <Label Text="11" />
-            </ContentView>
-            <ContentView Grid.Row="2" Grid.Column="3" BackgroundColor="Yellow">
-                <Label Text="12" />
-            </ContentView>
+             Style="{StaticResource PagesStyle}">
+    <Grid RowDefinitions="*,*">
+        <Grid RowDefinitions="3*,1*" BackgroundColor="Red" Padding="20">
+            <Label Grid.Row="0" Text="00:00" FontSize="300"></Label>
+            <Label Grid.Row="1" WidthRequest="400" Text="00:00" FontSize="100"></Label>
         </Grid>
-    </VerticalStackLayout>
+        <Grid Grid.Row="2" BackgroundColor="Blue"/>
+    </Grid>
 </ContentPage>

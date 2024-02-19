@@ -9,6 +9,17 @@
                 <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
                 <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
             </ResourceDictionary.MergedDictionaries>
+            <!--Style du font de pages-->
+            <Style x:Key="PagesStyle" TargetType="ContentPage">
+                <Setter Property="BackgroundColor" Value="#0E1E2C" />
+            </Style>
+            <Style TargetType="Label">
+                <Setter Property="BackgroundColor" Value="White"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+                <Setter Property="VerticalTextAlignment" Value="Center"/>
+                <Setter Property="Padding" Value="10"/>
+                <Setter Property="LineHeight" Value="1.5"/>
+            </Style>
         </ResourceDictionary>
     </Application.Resources>
 </Application>
