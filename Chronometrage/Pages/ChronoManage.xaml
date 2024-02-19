@@ -3,11 +3,49 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Chronometrage.Pages.ChronoManage"
              Style="{StaticResource PagesStyle}">
-    <Grid RowDefinitions="*,*">
-        <Grid RowDefinitions="3*,1*" BackgroundColor="Red" Padding="20">
-            <Label Grid.Row="0" Text="00:00" FontSize="300"></Label>
-            <Label Grid.Row="1" WidthRequest="400" Text="00:00" FontSize="100"></Label>
+    <Grid RowDefinitions="3*,1*,2*">
+        <Grid Grid.Row="0"
+              RowDefinitions="6*,*">
+            <Border Grid.Row="0" 
+                Style="{StaticResource ChronometreStyle}"
+                WidthRequest="1300"
+                Margin="20,20,20,0">
+                <Label Text="00:00" FontSize="250"/>
+            </Border>
+            <HorizontalStackLayout Grid.Row="1" BackgroundColor="blue">
+            </HorizontalStackLayout>
         </Grid>
-        <Grid Grid.Row="2" BackgroundColor="Blue"/>
+
+        <Grid Grid.Row="1"
+              ColumnDefinitions="*,2*,*">
+            <Label Grid.Column="0" Text="Equipe 2" FontSize="40"/>
+            <Border Grid.Column="1"
+                    WidthRequest="500"
+                    Style="{StaticResource ChronometreStyle}">
+                <Label  Text="00:00" FontSize="100"/>
+            </Border>
+            <Label Grid.Column="2" Text="Equipe 1" FontSize="40"/>
+        </Grid>
+        <Grid Grid.Row="2" 
+              ColumnDefinitions="1*,2*,1*">
+            <Grid Grid.Column="0"
+                  ColumnDefinitions="1*,4*,1*">
+                <Button Grid.Column="0" Text="-" FontSize="80"/>
+                <Border Grid.Column="1" Style="{StaticResource PointStyle}">
+                    <Label Text="0" FontSize="150"/>
+                </Border>
+                <Button Grid.Column="2" Text="+" FontSize="80"/>
+            </Grid>
+
+            <Grid Grid.Column="2"
+                ColumnDefinitions="1*,4*,1*">
+                <Button Grid.Column="0" Text="-" FontSize="80"/>
+                <Border Grid.Column="1" Style="{StaticResource PointStyle}">
+                    <Label Text="0" FontSize="150"/>
+                </Border>
+                <Button Grid.Column="2" Text="+" FontSize="80"/>
+            </Grid>
+
+        </Grid>
     </Grid>
 </ContentPage>

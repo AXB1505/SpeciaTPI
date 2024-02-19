@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Chronometrage")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+dcc094aa56fc3eb0a7c5b3be8411a46747a8d8b5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+d5370d801d0500c50696ceb68185a9e729460a2d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Chronometrage")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Chronometrage")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
