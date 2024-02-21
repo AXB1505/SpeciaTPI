@@ -177,3 +177,6 @@ C:\Users\BorraniA2\Desktop\SpeciaTPI\Chronometrage\obj\Debug\net8.0-windows10.0.
 C:\Users\BorraniA2\Desktop\SpeciaTPI\Chronometrage\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\BorraniA2\Desktop\SpeciaTPI\Chronometrage\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
 C:\Users\BorraniA2\Desktop\SpeciaTPI\Chronometrage\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\Montserrat-Medium.ttf
+C:\Users\BorraniA2\Desktop\SpeciaTPI\Chronometrage\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\btn_reset.scale-100.png
+C:\Users\BorraniA2\Desktop\SpeciaTPI\Chronometrage\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\btn_start.scale-100.png
+C:\Users\BorraniA2\Desktop\SpeciaTPI\Chronometrage\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\btn_stop.scale-100.png

@@ -58,6 +58,9 @@
 
 	<ItemGroup>
 	  <None Remove="Resources\Fonts\Montserrat-Medium.ttf" />
+	  <None Remove="Resources\Images\btn_reset.png" />
+	  <None Remove="Resources\Images\btn_start.png" />
+	  <None Remove="Resources\Images\btn_stop.png" />
 	</ItemGroup>
 
 	<ItemGroup>

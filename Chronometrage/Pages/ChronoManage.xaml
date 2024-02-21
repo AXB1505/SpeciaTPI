@@ -3,49 +3,81 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Chronometrage.Pages.ChronoManage"
              Style="{StaticResource PagesStyle}">
+    
+    <!-- Grille de disposition de la page de chronomètrage -->
     <Grid RowDefinitions="3*,1*,2*">
         <Grid Grid.Row="0"
               RowDefinitions="6*,*">
+            
+            <!-- Chronometre principal -->
             <Border Grid.Row="0" 
                 Style="{StaticResource ChronometreStyle}"
-                WidthRequest="1300"
+                WidthRequest="800"
                 Margin="20,20,20,0">
-                <Label Text="00:00" FontSize="250"/>
+                <Label Text="00:00" FontSize="200"/>
             </Border>
-            <HorizontalStackLayout Grid.Row="1" BackgroundColor="blue">
+            
+            <!-- Emplacement des boutons du chronomètre principal -->
+            <HorizontalStackLayout Grid.Row="1" 
+                                   BackgroundColor="Transparent"
+                                   HorizontalOptions="Center"
+                                   Spacing="14">
+                <Button x:Name="btnStart"
+                        ImageSource="btn_start.png"/>
+                <Button x:Name="btnStop"
+                        ImageSource="btn_stop.png"/>
+                <Button x:Name="btnReset"
+                        ImageSource="btn_reset.png"/>
             </HorizontalStackLayout>
         </Grid>
-
+        
+        <!-- Grille de disposition du des équipes et du chronomètre secondaire -->
         <Grid Grid.Row="1"
               ColumnDefinitions="*,2*,*">
-            <Label Grid.Column="0" Text="Equipe 2" FontSize="40"/>
-            <Border Grid.Column="1"
-                    WidthRequest="500"
-                    Style="{StaticResource ChronometreStyle}">
-                <Label  Text="00:00" FontSize="100"/>
-            </Border>
-            <Label Grid.Column="2" Text="Equipe 1" FontSize="40"/>
+            <Label Grid.Column="0" Text="Equipe 1" FontSize="40"/>
+            <VerticalStackLayout Grid.Column="1">
+                <Border WidthRequest="400"
+                        Style="{StaticResource ChronometreStyle}">
+                    <Label  Text="00:00" FontSize="60"/>
+                </Border>
+                <HorizontalStackLayout Grid.Column="1" 
+                                       BackgroundColor="Transparent"
+                                       HorizontalOptions="Center"
+                                       Spacing="14">
+                    <Button x:Name="btnStart2"
+                            Text="Start"/>
+                    <Button x:Name="btnStop2"
+                            Text="Start"/>
+                    <Button x:Name="btnReset2"
+                            Text="Start"/>
+                </HorizontalStackLayout>
+            </VerticalStackLayout>
+            
+            <Label Grid.Column="2" Text="Equipe 2" FontSize="40"/>
         </Grid>
+        
+        <!-- Grille de disposition des points et des temps morts-->
         <Grid Grid.Row="2" 
               ColumnDefinitions="1*,2*,1*">
             <Grid Grid.Column="0"
                   ColumnDefinitions="1*,4*,1*">
-                <Button Grid.Column="0" Text="-" FontSize="80"/>
+                <Button Grid.Column="0" Text="-" FontSize="40"/>
                 <Border Grid.Column="1" Style="{StaticResource PointStyle}">
                     <Label Text="0" FontSize="150"/>
                 </Border>
-                <Button Grid.Column="2" Text="+" FontSize="80"/>
+                <Button Grid.Column="2" Text="+" FontSize="40"/>
             </Grid>
 
             <Grid Grid.Column="2"
                 ColumnDefinitions="1*,4*,1*">
-                <Button Grid.Column="0" Text="-" FontSize="80"/>
+                <Button Grid.Column="0" Text="-" FontSize="40"/>
                 <Border Grid.Column="1" Style="{StaticResource PointStyle}">
                     <Label Text="0" FontSize="150"/>
                 </Border>
-                <Button Grid.Column="2" Text="+" FontSize="80"/>
+                <Button Grid.Column="2" Text="+" FontSize="40"/>
             </Grid>
 
         </Grid>
+        
     </Grid>
 </ContentPage>

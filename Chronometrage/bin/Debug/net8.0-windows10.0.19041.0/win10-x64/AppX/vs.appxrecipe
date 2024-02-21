@@ -29,13 +29,13 @@
     <AppXManifest Include="C:\Users\BorraniA2\Desktop\SpeciaTPI\Chronometrage\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-02-19T15:57:30.300</Modified>
+      <Modified>2024-02-21T08:12:22.006</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\BorraniA2\Desktop\SpeciaTPI\Chronometrage\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-02-19T14:08:39.829</Modified>
+      <Modified>2024-02-21T08:07:07.421</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\BorraniA2\Desktop\SpeciaTPI\Chronometrage\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Chronometrage.runtimeconfig.json">
       <PackagePath>Chronometrage.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\BorraniA2\Desktop\SpeciaTPI\Chronometrage\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Chronometrage.dll">
       <PackagePath>Chronometrage.dll</PackagePath>
-      <Modified>2024-02-19T15:57:27.566</Modified>
+      <Modified>2024-02-21T08:12:21.439</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\BorraniA2\Desktop\SpeciaTPI\Chronometrage\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Chronometrage.exe</PackagePath>
-      <Modified>2024-02-19T15:57:27.874</Modified>
+      <Modified>2024-02-21T08:12:21.511</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\BorraniA2\Desktop\SpeciaTPI\Chronometrage\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -269,29 +269,41 @@
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
       <Modified>2024-02-15T09:59:46.960</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\BorraniA2\Desktop\SpeciaTPI\Chronometrage\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\btn_reset.scale-100.png">
+      <PackagePath>btn_reset.scale-100.png</PackagePath>
+      <Modified>2024-02-21T08:00:53.507</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\BorraniA2\Desktop\SpeciaTPI\Chronometrage\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\btn_start.scale-100.png">
+      <PackagePath>btn_start.scale-100.png</PackagePath>
+      <Modified>2024-02-21T08:00:59.323</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\BorraniA2\Desktop\SpeciaTPI\Chronometrage\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\btn_stop.scale-100.png">
+      <PackagePath>btn_stop.scale-100.png</PackagePath>
+      <Modified>2024-02-21T08:01:18.919</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\BorraniA2\Desktop\SpeciaTPI\Chronometrage\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2024-02-15T09:59:45.954</Modified>
+      <Modified>2024-02-21T08:06:58.695</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\BorraniA2\Desktop\SpeciaTPI\Chronometrage\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2024-02-15T09:59:46.001</Modified>
+      <Modified>2024-02-21T08:06:58.729</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\BorraniA2\Desktop\SpeciaTPI\Chronometrage\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2024-02-15T09:59:46.023</Modified>
+      <Modified>2024-02-21T08:06:58.759</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\BorraniA2\Desktop\SpeciaTPI\Chronometrage\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2024-02-15T09:59:46.053</Modified>
+      <Modified>2024-02-21T08:06:58.775</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\BorraniA2\Desktop\SpeciaTPI\Chronometrage\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2024-02-15T09:59:46.177</Modified>
+      <Modified>2024-02-21T08:06:58.871</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\BorraniA2\Desktop\SpeciaTPI\Chronometrage\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Chronometrage.deps.json">
       <PackagePath>Chronometrage.deps.json</PackagePath>
-      <Modified>2024-02-19T14:08:39.495</Modified>
+      <Modified>2024-02-21T08:07:06.866</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\BorraniA2\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

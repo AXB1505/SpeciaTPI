@@ -202,6 +202,15 @@
     <AppxPackagedFile Include="C:\Users\BorraniA2\Desktop\SpeciaTPI\Chronometrage\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\BorraniA2\Desktop\SpeciaTPI\Chronometrage\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\btn_reset.scale-100.png">
+      <PackagePath>btn_reset.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\BorraniA2\Desktop\SpeciaTPI\Chronometrage\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\btn_start.scale-100.png">
+      <PackagePath>btn_start.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\BorraniA2\Desktop\SpeciaTPI\Chronometrage\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\btn_stop.scale-100.png">
+      <PackagePath>btn_stop.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\BorraniA2\Desktop\SpeciaTPI\Chronometrage\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
     </AppxPackagedFile>
