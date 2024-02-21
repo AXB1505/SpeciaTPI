@@ -29,7 +29,7 @@
     <AppXManifest Include="C:\Users\BorraniA2\Desktop\SpeciaTPI\Chronometrage\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-02-21T09:48:30.115</Modified>
+      <Modified>2024-02-21T14:51:37.384</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\BorraniA2\Desktop\SpeciaTPI\Chronometrage\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Chronometrage.dll">
       <PackagePath>Chronometrage.dll</PackagePath>
-      <Modified>2024-02-21T09:48:29.198</Modified>
+      <Modified>2024-02-21T14:51:34.241</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\BorraniA2\Desktop\SpeciaTPI\Chronometrage\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Chronometrage.exe</PackagePath>
-      <Modified>2024-02-21T09:48:29.261</Modified>
+      <Modified>2024-02-21T14:51:35.576</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\BorraniA2\Desktop\SpeciaTPI\Chronometrage\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
