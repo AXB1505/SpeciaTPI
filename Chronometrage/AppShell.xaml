@@ -7,13 +7,21 @@
     Shell.FlyoutBehavior="Disabled"
     Title="Chronometrage">
     <TabBar>
-        <Tab Title="⏱">
+        <Tab Title="🏠">
             <ShellContent
                 ContentTemplate="{DataTemplate local:MainPage}"/>
         </Tab>
-        <Tab Title="Chronomètre">
+        <Tab Title="⏱">
             <ShellContent 
                 ContentTemplate="{DataTemplate local:ChronoManage}"/>
+        </Tab>
+        <Tab Title="📖">
+            <ShellContent 
+                ContentTemplate="{DataTemplate local:Result}"/>
+        </Tab>
+        <Tab Title="Teams">
+            <ShellContent 
+                ContentTemplate="{DataTemplate local:Teams}"/>
         </Tab>
     </TabBar>
 

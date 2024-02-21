@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Chronometrage.Pages.Teams"
+             Title="Teams">
+    <Grid RowDefinitions="1*,1*,3*">
+        <Label Grid.Row="0" 
+               Text="Equipes"
+               FontSize="Large"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"/>
+        <HorizontalStackLayout Grid.Row="1">
+            <Button Text="Ajouter une équipe"/>
+        </HorizontalStackLayout>
+        <ScrollView Grid.Row="2"
+                    HorizontalOptions="Center">
+            <Grid RowDefinitions="*"
+                  ColumnDefinitions="2*,2*,3*"
+                  x:Name="TeamsGrid">
+                <Border Grid.Row="0"
+                        Grid.Column="0"
+                        Stroke="Black">
+                    <Label Text="Nom"
+                           FontSize="Large"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"/>
+                </Border>
+                <Border Grid.Row="0"
+                        Grid.Column="1"
+                        Stroke="Black">
+                    <Label Text="Lieu"
+                           FontSize="Large"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"/>
+                </Border>
+                <Border Grid.Row="0"
+                        Grid.Column="2"
+                        Stroke="Black">
+                    <Label Text="Actions"
+                           FontSize="Large"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"/>
+                </Border>
+
+            </Grid>
+
+        </ScrollView>
+
+
+    </Grid>
+</ContentPage>
